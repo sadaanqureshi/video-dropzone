@@ -38,4 +38,6 @@ const videoSchema = new Schema<Ivid>(
         timestamps: true
     }
 
-)
+);
+const Video=models?.Video || model<Ivid>("Video", videoSchema);
+export default Video
