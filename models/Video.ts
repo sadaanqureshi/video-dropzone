@@ -12,7 +12,7 @@ export interface Ivid {
     url: string;
     videoUrl: string;
     thumbnailUrl: string;
-    controls: boolean;
+    controls?: boolean;
     transformation?:{
         height: number;
         width: number;
